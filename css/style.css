@@ -1,0 +1,32 @@
+body {
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+header nav{
+    height: 100px;
+    background-color: white;
+}
+
+nav .brand-logo img{
+    width: 200px;
+}
+
+header nav ul{
+    height: 50px;
+}
+
+header nav ul li{
+    margin: 10px 10px;
+}
+
+header nav ul li :hover{
+  color: brown;
+}
+
+header ul a{
+    color: black;
+}
