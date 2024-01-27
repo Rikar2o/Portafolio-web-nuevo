@@ -3,19 +3,24 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-  }
+    font-family: Montserrat;
 
 header nav{
     height: 100px;
     background-color: white;
 }
+}
+
+
 
 nav .brand-logo img{
     width: 200px;
+    
 }
 
 header nav ul{
     height: 20px;
+    text-transform: uppercase;
 }
 
 header nav ul li{
@@ -30,7 +35,42 @@ header ul a{
     color: black;
 }
 
+.prensentacion{
+    margin-top: 40px;
+}
+
+.prensentacion span {
+    font-size: 20px ;
+}
+
+.prensentacion img{
+    height: 300px;
+}
+
+.card-image{
+    border-radius: 10px;
+}
+
+.habilidades img{
+    width: 100px;
+    height: 100px;
+}
+
+.habilidades span{
+    font-size: 20px;
+}
+
+.images-estudios img{
+    margin-top: 30px;
+    height: 60px;
+}
+
+
+
+
 footer.page-footer{
     height: 80px;
     background: black;
 }
+
+
